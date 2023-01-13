@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32211103114",
+    "firebase_url": "https://work-counter-51eb9-default-rtdb.firebaseio.com",
+    "project_id": "work-counter-51eb9",
+    "storage_bucket": "work-counter-51eb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32211103114:android:5e1000028f55e7d255ec73",
+        "android_client_info": {
+          "package_name": "com.yourcompany.yourappname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32211103114-sfnqtvoa4uv7f87s3laugjp5ffdc5ck1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxhGwt3ZRSlXqpz6Q-2Cr4z_SP9BLRLyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32211103114-sfnqtvoa4uv7f87s3laugjp5ffdc5ck1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
