@@ -1,4 +1,4 @@
-package com.yourcompany.yourappname;
+package alrought.gameappz;
 
 import android.os.Build;
 import android.os.Bundle;

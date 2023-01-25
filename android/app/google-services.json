@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "32211103114",
-    "firebase_url": "https://work-counter-51eb9-default-rtdb.firebaseio.com",
-    "project_id": "work-counter-51eb9",
-    "storage_bucket": "work-counter-51eb9.appspot.com"
+    "project_number": "994197202317",
+    "project_id": "semafo-fb216",
+    "storage_bucket": "semafo-fb216.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:32211103114:android:5e1000028f55e7d255ec73",
+        "mobilesdk_app_id": "1:994197202317:android:d1d3a6f1dbe22952e009c4",
         "android_client_info": {
-          "package_name": "com.yourcompany.yourappname"
+          "package_name": "alrought.gameappz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "32211103114-sfnqtvoa4uv7f87s3laugjp5ffdc5ck1.apps.googleusercontent.com",
+          "client_id": "994197202317-295jm4qlaalhci3dp8768pjctdke0ru7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBxhGwt3ZRSlXqpz6Q-2Cr4z_SP9BLRLyI"
+          "current_key": "AIzaSyDRrLG_08Ck_YoXhsYKQZH6xMPcPp5t5JQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "32211103114-sfnqtvoa4uv7f87s3laugjp5ffdc5ck1.apps.googleusercontent.com",
+              "client_id": "994197202317-295jm4qlaalhci3dp8768pjctdke0ru7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

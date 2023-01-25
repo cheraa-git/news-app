@@ -9,7 +9,7 @@ export interface IPost {
 
 export type RootStackParams = {
   Home: undefined,
-  FullPost: { id: string, timestamp: string }
+  FullPost: { id: string }
   WebView: { url: string }
   Loading: undefined
 }

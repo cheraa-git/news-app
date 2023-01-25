@@ -18,9 +18,9 @@ export const Navigation = () => {
 
         <Stack.Screen name={"Home"}
                       component={HomeScreen}
-                      options={{ headerLeft: () => <></>, gestureEnabled: false, title: 'Новости спорта' }}/>
+                      options={{ headerLeft: () => <></>, gestureEnabled: false, title: 'Sport news' }}/>
 
-        <Stack.Screen name={"FullPost"} component={FullPostScreen} options={{ title: 'Статья' }}/>
+        <Stack.Screen name={"FullPost"} component={FullPostScreen} options={{ title: 'Article' }}/>
         <Stack.Screen name={"WebView"} component={WebViewPage} options={{ header: () => null, gestureEnabled: false }}/>
       </Stack.Navigator>
     </NavigationContainer>

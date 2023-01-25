@@ -1,4 +1,4 @@
-package com.yourcompany.yourappname.newarchitecture.components;
+package alrought.gameappz.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

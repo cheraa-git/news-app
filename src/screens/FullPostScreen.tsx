@@ -25,14 +25,13 @@ const PostTitle = styled.Text`
 `
 
 
-export const FullPostScreen = ({route, navigation}: NativeStackScreenProps<RootStackParams, 'FullPost'>) => {
+export const FullPostScreen = ({ route }: NativeStackScreenProps<RootStackParams, 'FullPost'>) => {
   const [isLoading, setIsLoading] = useState(true)
-  const [data, setData] = useState<IPost>()
-  const {id, timestamp} = route.params
+  const [postData, setPostData] = useState<IPost>()
+  const { id } = route.params
 
   useEffect(() => {
-    setData(PostsData.find(post => post.id === id))
-    navigation.setOptions({title: new Date(+timestamp).toLocaleDateString()})
+    setPostData(PostsData.find(post => post.id === id))
     setIsLoading(false)
   }, [])
 
@@ -41,14 +40,9 @@ export const FullPostScreen = ({route, navigation}: NativeStackScreenProps<RootS
   }
   return (
     <ScrollView style={{ padding: 20 }}>
-      <PostTitle>
-        {data?.title}
-      </PostTitle>
-      <PostImage
-        source={{ uri: data?.imageUrl }}/>
-      <PostText>
-        {data?.text}
-      </PostText>
+      <PostTitle>{postData?.title}</PostTitle>
+      <PostImage source={{ uri: postData?.imageUrl }}/>
+      <PostText>{postData?.text}</PostText>
     </ScrollView>
   )
 }
